@@ -10,10 +10,16 @@ colo desert
 
 
 nnoremap ff dd
-nmap a h
-nnoremap d l
-nmap w k
-nmap s j
+nnoremap a <left>
+nnoremap d <right>
+nnoremap w <up>
+nnoremap s <down>
+
+vnoremap f d
+vnoremap a <left>
+vnoremap d <right>
+vnoremap w <up>
+vnoremap s <down>
 
 
 set backupdir=.backup/,~/.backup/,/tmp//
