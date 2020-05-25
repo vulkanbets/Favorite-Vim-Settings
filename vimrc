@@ -4,6 +4,10 @@
 
 set number
 set mouse=a
+syntax on
+
+colo desert
+
 
 nnoremap ff dd
 nmap a h
