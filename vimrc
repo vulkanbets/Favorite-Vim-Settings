@@ -49,5 +49,11 @@ set nobackup
 set noswapfile
 
 
+" Use this if you want to turn of mouse
+" For example on the raspberry pi
+set mouse-=a
+" Use this if you want to turn of mouse
+" For example on the raspberry pi
+
 
 
