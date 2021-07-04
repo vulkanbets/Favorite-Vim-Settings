@@ -1,14 +1,11 @@
 
-
-
-
 set number
 set mouse=a
 syntax on
 
 colo desert
 
-
+" These are just random remaps, not usually needed!
 nnoremap ff dd
 nnoremap a <left>
 nnoremap d <right>
@@ -20,6 +17,7 @@ vnoremap a <left>
 vnoremap d <right>
 vnoremap w <up>
 vnoremap s <down>
+" These are just random remaps, not usually needed!
 
 
 set backupdir=.backup/,~/.backup/,/tmp//
@@ -56,4 +54,9 @@ set mouse-=a
 " For example on the raspberry pi
 
 
+"""---------These are for setting the tabs for different filetypes-------
+autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
+autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
+"""--------These are for setting the tabs for different filetypes--------
 
