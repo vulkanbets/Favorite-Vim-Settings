@@ -43,7 +43,7 @@ set directory=~/.vim/.swp//
 "Alternatively you can turn them off, putting this in your vimrc file:
 
 set nobackup
-
+set noundofile
 set noswapfile
 
 
