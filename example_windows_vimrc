@@ -1,0 +1,28 @@
+
+
+
+" Set Line numbers
+set number
+
+
+" Set syntax on
+syntax on
+
+
+" Color scheme
+colo desert
+
+" Get rid of backup/undo/swap files
+set nobackup
+set noundofile
+set noswapfile
+
+" Get rid of annoying error bell noise
+set noerrorbells visualbell t_vb=
+
+
+" Allow normal backspace use
+set backspace=indent,eol,start
+
+
+
