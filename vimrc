@@ -62,8 +62,13 @@ autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
 
 
 " Use these to turn off the beeping noise on Windows machines
+
+" This is for the command line Vim
 set noerrorbells visualbell t_vb=
+
+" This is for the gui text gVim
 autocmd GUIEnter * set visualbell t_vb=
+
 " Use these to turn off the beeping noise on Windows machines
 
 
