@@ -60,3 +60,11 @@ autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sw=4 sts=0 noexpandtab
 """--------These are for setting the tabs for different filetypes--------
 
+
+" Use these to turn off the beeping noise on Windows machines
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
+" Use these to turn off the beeping noise on Windows machines
+
+
+
