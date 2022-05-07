@@ -45,6 +45,8 @@ set directory=~/.vim/.swp//
 set nobackup
 set noundofile
 set noswapfile
+set tabstop=2
+set shiftwidth=2
 
 
 " Use this if you want to turn of mouse
