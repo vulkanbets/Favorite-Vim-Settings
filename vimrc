@@ -19,6 +19,16 @@ vnoremap w <up>
 vnoremap s <down>
 " These are just random remaps, not usually needed!
 
+" More useful remaps
+" Moving texts blocks up or down
+nnoremap <A-down> :m .+1<CR>==
+nnoremap <A-up> :m .-2<CR>==
+vnoremap <A-down> :m '>+1<CR>gv=gv
+vnoremap <A-up> :m '<-2<CR>gv=gv
+" Moving texts blocks up or down
+" More useful remaps
+
+
 
 set backupdir=.backup/,~/.backup/,/tmp//
 set directory=.swp/,~/.swp/,/tmp//
