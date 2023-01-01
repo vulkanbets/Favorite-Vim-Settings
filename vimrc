@@ -90,5 +90,10 @@ autocmd GUIEnter * set visualbell t_vb=
 
 " Use these to turn off the beeping noise on Windows machines
 
-
+"""--------- New Mappings For Productivity -------
+nnoremap <C-u> <C-u>zz
+nnoremap <C-d> <C-d>zz
+nnoremap <C-up> <C-u>zz
+nnoremap <C-down> <C-d>zz
+"""--------- New Mappings For Productivity -------
 
