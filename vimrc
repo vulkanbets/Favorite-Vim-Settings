@@ -100,5 +100,9 @@ nnoremap <C-down> 2j
 nnoremap <BS> <C-y>
 nnoremap <space> <C-e>
 
+" Resize Window Shortcuts
+nnoremap + <C-w>+
+nnoremap - <C-w>-
+
 """--------- New Mappings For Productivity -------
 
