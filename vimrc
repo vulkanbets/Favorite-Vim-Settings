@@ -92,7 +92,6 @@ autocmd GUIEnter * set visualbell t_vb=
 
 """--------- New Mappings For Productivity -------
 
-let mapleader = ";"
 set number
 syntax on
 set nobackup
@@ -100,19 +99,19 @@ set noundofile
 set noswapfile
 
 " Faster Movement
-nnoremap <C-k> 3k
-nnoremap <C-j> 3j
+nnoremap <C-up> 4k
+nnoremap <C-down> 4j
 
 " Scroll Up/Down
-nnoremap <C-up> <C-y>
-nnoremap <C-down> <C-e>
+nnoremap <A-up> <C-y>
+nnoremap <A-down> <C-e>
 
 " Resize Window Shortcuts
 nnoremap + <C-w>+
 nnoremap - <C-w>-
 
-" Ctrl-W Remaps
-nnoremap <Leader> <C-w>
+" Ctrl-W Remapped
+nnoremap ; <C-w>
 
 """--------- New Mappings For Productivity -------
 
